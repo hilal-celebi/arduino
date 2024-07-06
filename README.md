@@ -1,8 +1,7 @@
 # ARDUINO ILE STATE CONTROL
 ## State Control Nedir?
-Durum kontrolü, bir uygulamanın belirli bir andaki verilerini ve bu verilere bağlı işlemlerini yönetme sürecidir. Bu, hataları tespit etmeyi, veri tutarlılığını sağlamayı ve kullanıcı deneyimini iyileştirmeyi kolaylaştırır. Durum yönetimi için Redux, Vuex, MobX gibi kütüphaneler kullanılır.
-
-Bu projedeki amacımız aracımız bellirli bir açıda sağa ve sola döndüğünde breadboardın en sağında ve en solunda olan ledlerimiz yanıp sönmesi,hızımız sıfırken ortadaki ledimizin sadece yanması ve hızımız sıfırın altındayken ortadaki ledimizin yanıp sönmesini sağlamak.
+Durum kontrolü, bir uygulamanın belirli bir andaki verilerini ve bu verilere bağlı işlemlerini yönetme sürecidir. Bu, hataları tespit etmeyi, veri tutarlılığını sağlamayı ve kullanıcı deneyimini iyileştirmeyi kolaylaştırır. 
+Bu projedeki amacımız aracımız bellirli bir açıda sağa ve sola döndüğünde breadboardın en sağında ve en solunda olan ledlerimizin yanıp sönmesi,hızımız sıfırken ortadaki ledimizin sadece yanması ve hızımız sıfırın altındayken ortadaki ledimizin yanıp sönmesini sağlamak.
 
 ## Sağ ve Sol Ledin Yanıp Sönmesini Sağlayan Kod
 Ledlerin belirli bir frekansta yanıp sönmesini sağlar.
@@ -117,6 +116,7 @@ https://github.com/hilal-celebi/arduino/assets/153311166/ee86a06b-4eda-430d-9537
 
 
 ## Aracın Hızının Azalması (İvmenin Negatif Olması) Durumunda Ledin Yanıp Sönmesi Sağlayan Kod
+Aracımızın hızı pozitifken ivmenin negatif olması durumunda ortadaki kırmızı ledimiz yanıp sönecektir.
 ``` python
 
       def blink_leds_speed_acceleration(self):
@@ -133,8 +133,11 @@ https://github.com/hilal-celebi/arduino/assets/153311166/ee86a06b-4eda-430d-9537
 
 ```
 
-## 
 
+
+
+
+https://github.com/hilal-celebi/arduino/assets/153311166/e22077ac-a223-41db-ae54-92442ca9eae9
 
 
 
